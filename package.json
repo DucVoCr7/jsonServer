@@ -1,0 +1,35 @@
+{
+  "name": "json-server-datafakerjs",
+  "version": "1.0.0",
+  "description": "how to use json-server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "npm run generate-data && node main.js",
+    "generate-data": "node generate-data.js"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "duc-vo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "faker": "^5.5.3",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "query-string": "^7.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DucVoCr7/jsonServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DucVoCr7/jsonServer/issues"
+  },
+  "homepage": "https://github.com/DucVoCr7/jsonServer#readme"
+}

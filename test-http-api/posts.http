@@ -1,0 +1,29 @@
+@baseUrl = http://localhost:3000/api/posts
+ 
+# @name getAll
+GET {{baseUrl}}
+
+###
+
+# @name add
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "name": "PHP1"
+}
+
+###
+
+# @name repair
+PATCH {{baseUrl}}
+Content-Type: application/json
+
+{
+    "name": "New PHP"
+}
+###
+
+# @name remove
+DELETE  {{baseUrl}}
+Content-Type: application/json
